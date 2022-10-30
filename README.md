@@ -30,7 +30,7 @@ $$B_{t_{0}}=0, B_{t_{i}}=\sum_{j=1}^{i} \sqrt{t_{j}-t_{j-1}} G_{j} \text{ ; } i>
 
 2. Greeks
 
-2.1 Method 1 
+* Method 1 
 
 ```math
 $$ \Delta(x) = \frac{p(x+h)-p(x-h)}{2h} $$ 
@@ -39,7 +39,7 @@ $$ \Delta(x) = \frac{p(x+h)-p(x-h)}{2h} $$
 $$ \Gamma(x) = \frac{p(x+h)+p(x-h)-2P(x)}{h^2} $$ 
 ```
 
-2.2 Method 2 
+* Method 2 
 
 ```math
 $$\Delta(x)=e^{-r T} E\left[\frac{B_{T}}{x \sigma T} F\right]$$
@@ -48,7 +48,7 @@ $$\Delta(x)=e^{-r T} E\left[\frac{B_{T}}{x \sigma T} F\right]$$
 $$ \Gamma(x)=e^{-r T} E\left[\left(\frac{-B_{T}}{x^{2} \sigma T}+\frac{\left(B_{T}\right)^{2}-T}{(\sigma T x)^{2}}\right) F\right]$$ 
 ```
 
-2.3 Method 3 
+* Method 3 
 
 ```math
 $$

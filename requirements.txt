@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+plotly_express
+plotly
+scipy
