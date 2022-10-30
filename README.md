@@ -1,5 +1,3 @@
-# euro_option_greeks_malliavin
-
 <h3 align="center">European Options Greeks using Malliavin Calculus</h3>
 
 ---
@@ -27,6 +25,10 @@ $$p(x)=e^{-rT}E[(X_T^x -K)_+]$$
 ```math
 $$B_{t_{0}}=0, B_{t_{i}}=\sum_{j=1}^{i} \sqrt{t_{j}-t_{j-1}} G_{j} \text{ ; } i>0$$
 ```
+
+<p align="center">
+  <img src="img/CI.png?raw=true" />
+</p>
 
 2. Greeks
 
